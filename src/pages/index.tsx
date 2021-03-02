@@ -11,7 +11,7 @@ import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 
-import styles from '../styles/pages/home.module.css';
+import styles from '../styles/pages/Home.module.css';
 
 interface HomeProps {
   level: number;
