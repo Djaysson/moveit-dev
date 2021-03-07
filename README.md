@@ -21,7 +21,7 @@ O **Moveit-dev** é um App que utiliza a técnica de [pomodoro](https://pt.wikip
 </p>
 <br/>
 <h1 align="center">
-    <img alt="Booster" title="Booster" src="./public/projeto.png" width="500px" />
+    <img alt="Booster" title="Booster" src="./public/projeto.png"  />
 </h1>
 
 ## Tecnologias
