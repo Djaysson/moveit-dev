@@ -39,34 +39,39 @@ export function Countdown() {
         >
 
           Ciclo encerrado
+          <img src="icons/ok.svg" alt="ok" />
+
         </button>
 
       ) : (
-          <>
-            {isActive ? (
+        <>
+          {isActive ? (
 
-              <button
-                type="button"
-                className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
-                onClick={resetCountdown}
-              >
+            <button
+              type="button"
+              className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
+              onClick={resetCountdown}
+            >
 
-                Abandonar um ciclo
-              </button>
+              Abandonar um ciclo
+              <img src="icons/close-button.svg" alt="close-button" />
+            </button>
 
-            ) : (
+          ) : (
 
-                <button
-                  type="button"
-                  className={styles.countdownButton}
-                  onClick={startCountdown}
-                >
+            <button
+              type="button"
+              className={styles.countdownButton}
+              onClick={startCountdown}
+            >
 
-                  Iniciar um ciclo
-                </button>
-              )}
-          </>
-        )}
+              Iniciar um ciclo
+              
+              <img src="icons/play.svg" alt="play" />
+            </button>
+          )}
+        </>
+      )}
     </div>
   )
 }

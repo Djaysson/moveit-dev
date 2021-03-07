@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 :root{
-  --white:#fff;
-  --background:#F2F3F5;
+  --background:#0D1117;
+  --background-Light: #21262D;
   --gray-line:#DCDDE0;
-  --text:#666666;
+  --text:#C9D1D9;
   --text-highlight:#B3B9FF;
-  --title:#2E384D;
-  --red:#E83F5B;
+  --title:#CCD6F6;
+  --red:#C53030;
   --green:#4CD62B;
-  --blue:#5965E0;
-  --blue-dark:#4953B8;
+  --blue:#6E40C9;
+  --blue-dark:#5931A9;
   --blue-twitter:#2AA9E0;
 }
 @media(max-width: 1000px){
