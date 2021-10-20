@@ -27,7 +27,7 @@ export default function Home(props: HomeProps) {
     >
       <div className={styles.container}>
         <Head>
-          <link rel="icon" href="favicon.png" type="image/png" />
+          <link rel="icon" href="logo.png" type="image/png" />
 
           <title>Inicio | Moveit-dev</title>
         </Head>
