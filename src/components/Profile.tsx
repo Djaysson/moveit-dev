@@ -4,7 +4,6 @@ import styles from "../styles/components/Profile.module.css";
 
 export function Profile() {
   const { level } = useContext(ChallengesContext);
-
   return (
     <div className={styles.profileContainer}>
       <img src="/programming.svg" alt="Developers" />
