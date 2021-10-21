@@ -1,4 +1,4 @@
-.container{
+.container {
   height: 100vh;
   max-width: 992px;
   margin: 0 auto;
@@ -7,10 +7,27 @@
   flex-direction: column;
 }
 
-.container section{
+.container section {
   flex: 1;
   display: grid;
-  grid-template-columns:  1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
   align-content: center;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem 1.5rem;
+    display: flex;
+  }
+  .container section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
 }

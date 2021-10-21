@@ -1,4 +1,4 @@
-.completedChallengesContainer{
+.completedChallengesContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,9 +7,20 @@
   border-bottom: 1px solid #d7d8da;
   font-weight: 500;
 }
-.completedChallengesContainer span:first-child{
-font-size: 1.25rem;
+.completedChallengesContainer span:first-child {
+  font-size: 1.25rem;
 }
-.completedChallengesContainer span:last-child{
-font-size: 1.5rem;
+.completedChallengesContainer span:last-child {
+  font-size: 1.5rem;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .completedChallengesContainer {
+    width: 85vw;
+  }
+  .completedChallengesContainer span:first-child {
+    font-size: 1rem;
+  }
+  .completedChallengesContainer span:last-child {
+    font-size: 1rem;
+  }
 }

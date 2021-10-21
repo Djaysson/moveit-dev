@@ -1,24 +1,50 @@
-.profileContainer{
+.profileContainer {
   display: flex;
   align-items: center;
 }
-.profileContainer > img{
-  width: 5.5rem;
-  height: 5.5rem;
+.profileContainer > img {
+  width: 5.6rem;
+  height: 5.6rem;
+  object-fit: cover;
   border-radius: 50%;
 }
-.profileContainer div{
+.profileContainer div {
   margin-left: 1.5rem;
 }
-.profileContainer div strong{
+.profileContainer div strong {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--title);
 }
-.profileContainer div p{
+.profileContainer div p {
   font-size: 1rem;
   margin-top: 0.5rem;
 }
-.profileContainer div p img{
+.profileContainer div p img {
   margin-right: 0.5rem;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .profileContainer {
+    width: 85vw;
+    margin-top: 1.5rem;
+  }
+  .profileContainer > img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .profileContainer div {
+    margin-left: 1rem;
+  }
+  .profileContainer div strong {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--title);
+  }
+  .profileContainer div p {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+  }
+  .profileContainer div p img {
+    margin-right: 0.2rem;
+  }
 }
